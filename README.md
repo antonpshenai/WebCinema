@@ -20,15 +20,15 @@ Movie deletion window
 
 Movie details window.
 ![photo_2024-04-10_15-46-20](https://github.com/antonpshenai/WebCinema/assets/81904561/c7439379-e5d2-4c6f-906a-cae1a1a180b7)
-
-Add new movie window.
+Edit movie window.
 
 ![photo_2024-04-10_15-46-09](https://github.com/antonpshenai/WebCinema/assets/81904561/28e66da8-8beb-4b9f-a68b-39ea0ef0358e)
 Window for assigning categories to the movie.
 ![photo_2024-04-10_15-45-54](https://github.com/antonpshenai/WebCinema/assets/81904561/ca675368-c785-4cab-90ff-db72c2f5d010)
-
+Movie details without categories.
 
 ![photo_2024-04-10_15-44-13](https://github.com/antonpshenai/WebCinema/assets/81904561/6fe61142-76d4-4f45-bfc3-dab206f15ef0)
+Adding a new movie.
 ![photo_2024-04-10_11-27-09](https://github.com/antonpshenai/WebCinema/assets/81904561/40061d57-231e-4491-8f9b-5a4ed947b852)
 ![photo_2024-04-10_11-25-56](https://github.com/antonpshenai/WebCinema/assets/81904561/9097b57c-51de-4f04-8a09-9001f4c49373)
 ![photo_2024-04-10_11-25-13](https://github.com/antonpshenai/WebCinema/assets/81904561/adadd649-40a5-44d0-a9b1-799946a1e6e2)
