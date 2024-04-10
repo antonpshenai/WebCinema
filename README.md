@@ -1,9 +1,12 @@
 Starting page with all films
 ![3 1](https://github.com/antonpshenai/WebCinema/assets/81904561/4548e732-0039-4c80-bae1-1ada43c46a13)
+
 Pop up window for adding new film
 ![3 0](https://github.com/antonpshenai/WebCinema/assets/81904561/f69d484b-efd7-4692-8897-8a9760271043)
+
 Fill in new film
 ![2 9](https://github.com/antonpshenai/WebCinema/assets/81904561/7d696ecf-554c-4819-a678-2e22368d7380)
+
 New film appear in the list of films
 ![2 8](https://github.com/antonpshenai/WebCinema/assets/81904561/0f496a6c-5429-4e1f-bd0a-0172c15f7c83)
 ![2 7](https://github.com/antonpshenai/WebCinema/assets/81904561/c6a95312-d06a-4da0-bcef-e5bea366d3ac)
