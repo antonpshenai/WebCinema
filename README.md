@@ -2,7 +2,7 @@
 The starting page of my test task.
 ![photo_2024-04-10_15-50-02](https://github.com/antonpshenai/WebCinema/assets/81904561/96be53b3-3c1b-4280-b1fe-c09cb6bdb504)
 
-Here are the categories to which we can add and delete movies.
+Here are the categories to which we can edit and delete movies.
 
 ![photo_2024-04-10_15-49-35](https://github.com/antonpshenai/WebCinema/assets/81904561/19fb4159-b3c3-4fd2-83dd-29220ddbc00c)
 
