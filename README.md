@@ -30,13 +30,19 @@ Movie details without categories.
 ![photo_2024-04-10_15-44-13](https://github.com/antonpshenai/WebCinema/assets/81904561/6fe61142-76d4-4f45-bfc3-dab206f15ef0)
 Adding a new movie.
 ![photo_2024-04-10_11-27-09](https://github.com/antonpshenai/WebCinema/assets/81904561/40061d57-231e-4491-8f9b-5a4ed947b852)
+
+All details with selected categories for the movie.
 ![photo_2024-04-10_11-25-56](https://github.com/antonpshenai/WebCinema/assets/81904561/9097b57c-51de-4f04-8a09-9001f4c49373)
+Movie release filter.
 ![photo_2024-04-10_11-25-13](https://github.com/antonpshenai/WebCinema/assets/81904561/adadd649-40a5-44d0-a9b1-799946a1e6e2)
+
+Test window of the program.
 ![photo_2024-04-10_11-24-48](https://github.com/antonpshenai/WebCinema/assets/81904561/0e3bec0d-4f3a-46fa-b2df-cedeaddeb265)
+
 ![photo_2024-04-10_11-23-55](https://github.com/antonpshenai/WebCinema/assets/81904561/1b680bb5-2160-4771-8c21-2b21021e171f)
 ![photo_2024-04-10_15-51-39](https://github.com/antonpshenai/WebCinema/assets/81904561/956b2d68-19b7-48e1-b7a2-420ac7530eac)
 ![photo_2024-04-10_15-51-17](https://github.com/antonpshenai/WebCinema/assets/81904561/e0d3e0b0-d586-4444-b660-d540c8e7c49d)
-![photo_2024-04-10_15-51-03](https://github.com/antonpshenai/WebCinema/assets/81904561/cd9545c0-4c0d-4400-8c0d-5e8ab9c6eddc)
+
 ![photo_2024-04-10_15-50-58](https://github.com/antonpshenai/WebCinema/assets/81904561/97319b4a-9b58-44cd-87af-5c6f0c141991)
 ![photo_2024-04-10_15-50-48](https://github.com/antonpshenai/WebCinema/assets/81904561/df131999-613e-411d-b637-a6448b507c78)
 ![photo_2024-04-10_15-50-43](https://github.com/antonpshenai/WebCinema/assets/81904561/cfca38f6-1ff8-4a6b-a00d-a764febca466)
