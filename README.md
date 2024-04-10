@@ -36,4 +36,7 @@ Filter movies by category.
 ![1 3](https://github.com/antonpshenai/WebCinema/assets/81904561/6af8238a-fb2e-4f55-9ac0-fbe76092fc9e)
 
 ![1 2](https://github.com/antonpshenai/WebCinema/assets/81904561/92918539-02d4-4ec7-b6bb-a2b2edd1a27c)
+
+Relationships between tables.
+
 ![1 1](https://github.com/antonpshenai/WebCinema/assets/81904561/ec6f9d74-d8d6-469e-b632-27ac949a828a)
