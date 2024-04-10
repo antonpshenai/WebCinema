@@ -16,6 +16,7 @@ New film appear in the list of films
 Filter movies by category.
 
 ![2 7](https://github.com/antonpshenai/WebCinema/assets/81904561/c6a95312-d06a-4da0-bcef-e5bea366d3ac)
+
 The result of using category filtering
 
 ![2 6](https://github.com/antonpshenai/WebCinema/assets/81904561/d67725e4-f485-4236-adf2-ce7ee4c91842)
