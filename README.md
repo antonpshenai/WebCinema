@@ -29,7 +29,12 @@ Filter movies by category.
 ![1 8](https://github.com/antonpshenai/WebCinema/assets/81904561/e6566b06-9f10-4cdb-8494-af8a44b35332)
 ![1 7](https://github.com/antonpshenai/WebCinema/assets/81904561/65a29dcc-6fb4-4d06-9e86-430fe1c1f62b)
 ![1 6](https://github.com/antonpshenai/WebCinema/assets/81904561/b59e6ea6-0ef8-432b-aefb-af746f2daf11)
+
+
 ![1 5](https://github.com/antonpshenai/WebCinema/assets/81904561/384dce17-852c-472a-99ba-3ad732bd6cdd)
+
+Edditing of parent category.
+
 ![1 4](https://github.com/antonpshenai/WebCinema/assets/81904561/c63e5b52-ff62-42b0-8f1b-98863bdfdbd1)
 
 A list of categories with the parent category changed.
