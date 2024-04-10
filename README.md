@@ -12,7 +12,7 @@ These are the relationships between the tables.
 Category deletion window.
 ![photo_2024-04-10_15-49-42](https://github.com/antonpshenai/WebCinema/assets/81904561/875c0600-db10-4a12-8a7a-da282cf8021d)
 
-These are the relationships between the tables.
+Window with all categories.
 ![photo_2024-04-10_15-46-38](https://github.com/antonpshenai/WebCinema/assets/81904561/91c39a3f-654b-450c-b60e-a64f08e1ed68)
 
 Movie deletion window
@@ -20,7 +20,9 @@ Movie deletion window
 
 Movie details window.
 ![photo_2024-04-10_15-46-20](https://github.com/antonpshenai/WebCinema/assets/81904561/c7439379-e5d2-4c6f-906a-cae1a1a180b7)
-![photo_2024-04-10_15-46-14](https://github.com/antonpshenai/WebCinema/assets/81904561/d16acb37-1a90-4844-b766-5a38ee72a953)
+
+Add new movie window.
+
 ![photo_2024-04-10_15-46-09](https://github.com/antonpshenai/WebCinema/assets/81904561/28e66da8-8beb-4b9f-a68b-39ea0ef0358e)
 ![photo_2024-04-10_15-45-54](https://github.com/antonpshenai/WebCinema/assets/81904561/ca675368-c785-4cab-90ff-db72c2f5d010)
 ![photo_2024-04-10_15-45-42](https://github.com/antonpshenai/WebCinema/assets/81904561/d2b495b6-1add-4080-b41e-b3ea973fdc99)
