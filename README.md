@@ -1,56 +1,22 @@
-# ITExpertTEST![photo_2024-04-10_11-23-42](https://github.com/antonpshenai/WebCinema/assets/81904561/2248972c-9831-4aba-bb68-9afe3b4f1ec4)
-The starting page of my test task.
-![photo_2024-04-10_15-50-02](https://github.com/antonpshenai/WebCinema/assets/81904561/96be53b3-3c1b-4280-b1fe-c09cb6bdb504)
-
-Here are the categories to which we can edit and delete movies.
-
-![photo_2024-04-10_15-49-35](https://github.com/antonpshenai/WebCinema/assets/81904561/19fb4159-b3c3-4fd2-83dd-29220ddbc00c)
-
-These are the relationships between the tables.
-![photo_2024-04-10_15-49-56](https://github.com/antonpshenai/WebCinema/assets/81904561/198a10dd-d18e-4b5f-9b30-06b2ef54af62)
-
-Category deletion window.
-![photo_2024-04-10_15-49-42](https://github.com/antonpshenai/WebCinema/assets/81904561/875c0600-db10-4a12-8a7a-da282cf8021d)
-
-Window with all categories.
-![photo_2024-04-10_15-46-38](https://github.com/antonpshenai/WebCinema/assets/81904561/91c39a3f-654b-450c-b60e-a64f08e1ed68)
-
-Movie deletion window
-![photo_2024-04-10_15-46-32](https://github.com/antonpshenai/WebCinema/assets/81904561/e5a57ad5-f541-455f-bc5f-23405545d344)
-
-Movie details window.
-![photo_2024-04-10_15-46-20](https://github.com/antonpshenai/WebCinema/assets/81904561/c7439379-e5d2-4c6f-906a-cae1a1a180b7)
-Edit movie window.
-
-![photo_2024-04-10_15-46-09](https://github.com/antonpshenai/WebCinema/assets/81904561/28e66da8-8beb-4b9f-a68b-39ea0ef0358e)
-Window for assigning categories to the movie.
-![photo_2024-04-10_15-45-54](https://github.com/antonpshenai/WebCinema/assets/81904561/ca675368-c785-4cab-90ff-db72c2f5d010)
-Movie details without categories.
-
-![photo_2024-04-10_15-44-13](https://github.com/antonpshenai/WebCinema/assets/81904561/6fe61142-76d4-4f45-bfc3-dab206f15ef0)
-Adding a new movie.
-![photo_2024-04-10_11-27-09](https://github.com/antonpshenai/WebCinema/assets/81904561/40061d57-231e-4491-8f9b-5a4ed947b852)
-
-All details with selected categories for the movie.
-![photo_2024-04-10_11-25-56](https://github.com/antonpshenai/WebCinema/assets/81904561/9097b57c-51de-4f04-8a09-9001f4c49373)
-Movie release filter.
-![photo_2024-04-10_11-25-13](https://github.com/antonpshenai/WebCinema/assets/81904561/adadd649-40a5-44d0-a9b1-799946a1e6e2)
-
-Test window of the program.
-![photo_2024-04-10_11-24-48](https://github.com/antonpshenai/WebCinema/assets/81904561/0e3bec0d-4f3a-46fa-b2df-cedeaddeb265)
-Filter for the newest movies.
-
-![photo_2024-04-10_11-23-55](https://github.com/antonpshenai/WebCinema/assets/81904561/1b680bb5-2160-4771-8c21-2b21021e171f)
-Empty window for adding a new movie.
-
-![photo_2024-04-10_15-50-48](https://github.com/antonpshenai/WebCinema/assets/81904561/df131999-613e-411d-b637-a6448b507c78)
-
-Filtering by categories.
-
-
-![photo_2024-04-10_15-50-23](https://github.com/antonpshenai/WebCinema/assets/81904561/d8c96b74-a881-4b61-96d4-003dab202bbc)
-When adding a category, all categories are displayed for search.
-![photo_2024-04-10_15-50-18](https://github.com/antonpshenai/WebCinema/assets/81904561/17009474-f930-4abb-9362-96eab090ebea)
-Window  with all categories.
-![photo_2024-04-10_15-50-08](https://github.com/antonpshenai/WebCinema/assets/81904561/1d5858db-148c-44b5-a145-7948fb00ab16)
-Adding a new category, assigning its parent category, or it can be null.
+# ITExpertTEST
+![21](https://github.com/antonpshenai/WebCinema/assets/81904561/19e249a1-d24b-4515-abc4-3c370c1df840)
+![20](https://github.com/antonpshenai/WebCinema/assets/81904561/440df15a-4f58-4c39-b499-ebce7c4376ff)
+![19](https://github.com/antonpshenai/WebCinema/assets/81904561/9938b5b0-98e6-4148-a174-c029bc893d28)
+![18](https://github.com/antonpshenai/WebCinema/assets/81904561/8e1cc3b4-2ca8-41a9-a7b3-9e2ed52d1697)
+![17](https://github.com/antonpshenai/WebCinema/assets/81904561/74fd675a-b0af-4538-9ab3-83bac51e50b8)
+![16](https://github.com/antonpshenai/WebCinema/assets/81904561/86d351c2-6f3b-4acd-b294-42996ef1e4a2)
+![15](https://github.com/antonpshenai/WebCinema/assets/81904561/7dec8995-c446-4291-8db1-6fcdb373fcbe)
+![14](https://github.com/antonpshenai/WebCinema/assets/81904561/f7fa39cc-d12c-48a6-8f21-cb673934b2a9)
+![13](https://github.com/antonpshenai/WebCinema/assets/81904561/ca9f8022-05e3-4436-9420-bc11f59c54de)
+![12](https://github.com/antonpshenai/WebCinema/assets/81904561/cd33a4e9-9a25-4e02-8c6e-c40e2fd6fbc7)
+![11](https://github.com/antonpshenai/WebCinema/assets/81904561/156732ee-0e59-475f-ba3f-94b0bbbc85d0)
+![10](https://github.com/antonpshenai/WebCinema/assets/81904561/ac188492-dbfb-4155-aa1b-d00f2d8241fa)
+![9](https://github.com/antonpshenai/WebCinema/assets/81904561/7a79b70c-1b44-41c2-975a-5879e034c77b)
+![8](https://github.com/antonpshenai/WebCinema/assets/81904561/941bb8a1-89f6-49e0-8014-b69f13b67055)
+![7](https://github.com/antonpshenai/WebCinema/assets/81904561/9e653022-3d1a-4c1b-9e6e-9619479ae3e9)
+![6](https://github.com/antonpshenai/WebCinema/assets/81904561/fd6ca05f-c905-4754-bfa5-2486f855d1b2)
+![5](https://github.com/antonpshenai/WebCinema/assets/81904561/de2266a1-0fee-4e1b-8487-03d842c9f409)
+![4](https://github.com/antonpshenai/WebCinema/assets/81904561/a329b6cc-e2de-4c7d-b2f4-3bb43a4d1f68)
+![3](https://github.com/antonpshenai/WebCinema/assets/81904561/74243e7d-7cb7-4012-8d2b-939a1ef71f28)
+![2](https://github.com/antonpshenai/WebCinema/assets/81904561/b45c81b4-7c0d-42fc-963b-d8649046914e)
+![1](https://github.com/antonpshenai/WebCinema/assets/81904561/f1850d0d-940f-435e-b223-49c9aa80543f)
