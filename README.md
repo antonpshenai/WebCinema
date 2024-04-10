@@ -38,12 +38,14 @@ Movie release filter.
 
 Test window of the program.
 ![photo_2024-04-10_11-24-48](https://github.com/antonpshenai/WebCinema/assets/81904561/0e3bec0d-4f3a-46fa-b2df-cedeaddeb265)
+Filter for the newest movies.
 
 ![photo_2024-04-10_11-23-55](https://github.com/antonpshenai/WebCinema/assets/81904561/1b680bb5-2160-4771-8c21-2b21021e171f)
-
+Empty window for adding a new movie.
 
 ![photo_2024-04-10_15-50-48](https://github.com/antonpshenai/WebCinema/assets/81904561/df131999-613e-411d-b637-a6448b507c78)
 
+Filtering by categories.
 
 
 ![photo_2024-04-10_15-50-23](https://github.com/antonpshenai/WebCinema/assets/81904561/d8c96b74-a881-4b61-96d4-003dab202bbc)
