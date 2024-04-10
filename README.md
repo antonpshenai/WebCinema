@@ -27,7 +27,7 @@ Add new movie window.
 Window for assigning categories to the movie.
 ![photo_2024-04-10_15-45-54](https://github.com/antonpshenai/WebCinema/assets/81904561/ca675368-c785-4cab-90ff-db72c2f5d010)
 
-![photo_2024-04-10_15-45-42](https://github.com/antonpshenai/WebCinema/assets/81904561/d2b495b6-1add-4080-b41e-b3ea973fdc99)
+
 ![photo_2024-04-10_15-44-13](https://github.com/antonpshenai/WebCinema/assets/81904561/6fe61142-76d4-4f45-bfc3-dab206f15ef0)
 ![photo_2024-04-10_11-27-09](https://github.com/antonpshenai/WebCinema/assets/81904561/40061d57-231e-4491-8f9b-5a4ed947b852)
 ![photo_2024-04-10_11-25-56](https://github.com/antonpshenai/WebCinema/assets/81904561/9097b57c-51de-4f04-8a09-9001f4c49373)
