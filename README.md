@@ -16,20 +16,48 @@ New film appear in the list of films
 Filter movies by category.
 
 ![2 7](https://github.com/antonpshenai/WebCinema/assets/81904561/c6a95312-d06a-4da0-bcef-e5bea366d3ac)
-
+the result of using category filtering
 
 ![2 6](https://github.com/antonpshenai/WebCinema/assets/81904561/d67725e4-f485-4236-adf2-ce7ee4c91842)
+
+Sort by date.
+
 ![2 5](https://github.com/antonpshenai/WebCinema/assets/81904561/ee037fc5-6f8f-413d-9790-d0b24ef43f08)
+
+Search by director
+
 ![2 4](https://github.com/antonpshenai/WebCinema/assets/81904561/64e78d63-5d41-45b6-b9ab-e3481cf08022)
-![2 3](https://github.com/antonpshenai/WebCinema/assets/81904561/f76d92de-3a7b-484e-b177-d5ea108e06bb)
-![2 2](https://github.com/antonpshenai/WebCinema/assets/81904561/b486c4d9-fcb3-49ff-9420-329eb42a902f)
+
+Adding categories to a movie.
+
+![2 3](https://github.com/antonpshenai/WebCinema/assets/81904561/f76d92de-3a7b-484e-b177-d5ea108e06bb
+Movie details with added categories
+
+![2 2](https://github.com/antonpshenai/WebCinema/assets/81904561/b486c4d9-fcb3-49ff-9420-329eb42a902f
+Editing by the director
+
 ![2 1](https://github.com/antonpshenai/WebCinema/assets/81904561/143c07b8-09f0-4a6f-b416-4a4010176707)
+
+The result with a changed director.
+
 ![2 0](https://github.com/antonpshenai/WebCinema/assets/81904561/8861e2a6-bd10-462c-98f0-cc98d1473b3c)
+The movie removal window.
+
 ![1 9](https://github.com/antonpshenai/WebCinema/assets/81904561/84f80135-0dba-4862-a8e9-5e0134c3abdc)
+
+List of movies with removed movie
+
 ![1 8](https://github.com/antonpshenai/WebCinema/assets/81904561/e6566b06-9f10-4cdb-8494-af8a44b35332)
+
+A page of all categories with the ability to add new ones, change and delete existing ones.
+
 ![1 7](https://github.com/antonpshenai/WebCinema/assets/81904561/65a29dcc-6fb4-4d06-9e86-430fe1c1f62b)
+
+Create a new category.
+
 ![1 6](https://github.com/antonpshenai/WebCinema/assets/81904561/b59e6ea6-0ef8-432b-aefb-af746f2daf11)
 
+Updated list with new category.
 
 ![1 5](https://github.com/antonpshenai/WebCinema/assets/81904561/384dce17-852c-472a-99ba-3ad732bd6cdd)
 
