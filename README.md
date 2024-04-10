@@ -40,8 +40,11 @@ Window for assigning categories to the movie.
 ![photo_2024-04-10_15-50-58](https://github.com/antonpshenai/WebCinema/assets/81904561/97319b4a-9b58-44cd-87af-5c6f0c141991)
 ![photo_2024-04-10_15-50-48](https://github.com/antonpshenai/WebCinema/assets/81904561/df131999-613e-411d-b637-a6448b507c78)
 ![photo_2024-04-10_15-50-43](https://github.com/antonpshenai/WebCinema/assets/81904561/cfca38f6-1ff8-4a6b-a00d-a764febca466)
-![photo_2024-04-10_15-50-39](https://github.com/antonpshenai/WebCinema/assets/81904561/f1fc0136-55cd-4c38-b5e9-85a3f891882f)
-![photo_2024-04-10_15-50-28](https://github.com/antonpshenai/WebCinema/assets/81904561/eda9b7a2-0cc5-4e2d-9246-f8ce0e0f1710)
+
+
 ![photo_2024-04-10_15-50-23](https://github.com/antonpshenai/WebCinema/assets/81904561/d8c96b74-a881-4b61-96d4-003dab202bbc)
+When adding a category, all categories are displayed for search.
 ![photo_2024-04-10_15-50-18](https://github.com/antonpshenai/WebCinema/assets/81904561/17009474-f930-4abb-9362-96eab090ebea)
+Window  with all categories.
 ![photo_2024-04-10_15-50-08](https://github.com/antonpshenai/WebCinema/assets/81904561/1d5858db-148c-44b5-a145-7948fb00ab16)
+Adding a new category, assigning its parent category, or it can be null.
