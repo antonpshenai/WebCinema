@@ -41,7 +41,6 @@ Test window of the program.
 
 ![photo_2024-04-10_11-23-55](https://github.com/antonpshenai/WebCinema/assets/81904561/1b680bb5-2160-4771-8c21-2b21021e171f)
 ![photo_2024-04-10_15-51-39](https://github.com/antonpshenai/WebCinema/assets/81904561/956b2d68-19b7-48e1-b7a2-420ac7530eac)
-![photo_2024-04-10_15-51-17](https://github.com/antonpshenai/WebCinema/assets/81904561/e0d3e0b0-d586-4444-b660-d540c8e7c49d)
 
 ![photo_2024-04-10_15-50-48](https://github.com/antonpshenai/WebCinema/assets/81904561/df131999-613e-411d-b637-a6448b507c78)
 
