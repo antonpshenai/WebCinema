@@ -1,0 +1,126 @@
+﻿@model ITExpertTEST.Models.Film
+
+<h2>Details for @Model.FilmName</h2>
+<button id="editFilmBtn" type="button" class="btn btn-success mb-2" data-toggle="modal" data-target="#editFilmModal">
+    Edit Film
+</button>
+<button id="deleteFilmBtn" type="button" class="btn btn-danger mb-2" data-toggle="modal" data-target="#deleteFilmModal">
+    Delete Film
+</button>
+
+<div class="modal fade" id="editFilmModal" tabindex="-1" aria-labelledby="editFilmModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editFilmModalLabel">Edit Film</h5>
+                <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="editFilmForm">
+                    <div class="form-group">
+                        <label for="editFilmName">Name:</label>
+                        <input type="text" class="form-control" id="editFilmName" value="@Model.FilmName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="editFilmDirector">Director:</label>
+                        <input type="text" class="form-control" id="editFilmDirector" value="@Model.FilmDirector" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="editReleaseDate">Release Date:</label>
+                        <input type="date" class="form-control" id="editReleaseDate" value="@Model.Release.ToString("yyyy-MM-dd")" required>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button id="saveFilmBtn" type="button" class="btn btn-primary">Save Film</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="deleteFilmModal" tabindex="-1" aria-labelledby="deleteFilmModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deleteFilmModalLabel">Confirm Film Deletion</h5>
+                <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Are you sure you want to delete the film: <strong>@Model.FilmName</strong>?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                <button id="confirmDeleteBtn" type="button" class="btn btn-danger" >Delete</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<dl class="row">
+    <dt class="col-sm-3">Name</dt>
+    <dd class="col-sm-9">@Model.FilmName</dd>
+
+    <dt class="col-sm-3">Director</dt>
+    <dd class="col-sm-9">@Model.FilmDirector</dd>
+
+    <dt class="col-sm-3">Release Date</dt>
+    <dd class="col-sm-9">@Model.Release.ToShortDateString()</dd>
+
+    <dt class="col-sm-3">Categories</dt>
+    <dd class="col-sm-9">
+        @if (Model.FilmCategories.Any())
+        {
+            <ul>
+                @foreach (var filmCategory in Model.FilmCategories)
+                {
+                    <li>@filmCategory.Category.Name</li>
+                }
+            </ul>
+        }
+        else
+        {
+            <p>No categories associated with this film.</p>
+        }
+
+        <select id="categoriesSelect" multiple style="width: 100%;">
+            @foreach (var category in ViewData["AllCategories"] as List<ITExpertTEST.Models.Category>)
+            {
+                <option value="@category.CategoryId"
+                        selected="@(category.CategoryId.ToString() == ViewData["SelectedCategory"]?.ToString())">
+                    @category.Name
+                </option>
+            }
+        </select>
+        <button id="saveCategoriesBtn" class="btn btn-primary mt-2">Save Categories</button>
+    </dd>
+</dl>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#categoriesSelect').select2();
+        var filmId = @Model.FilmId;
+        var allCategories = '@Html.Raw(ViewData["AllCategoriesJson"])';
+        var selectedCategories = '@Html.Raw(ViewData["SelectedCategoryIds"])';
+
+        var filmService = new FilmService(filmId, allCategories, selectedCategories);
+
+        $('#saveCategoriesBtn').click(function () {
+            filmService.saveCategories();
+        });
+
+        $('#saveFilmBtn').click(function () {
+            var filmName = $('#editFilmName').val();
+            var filmDirector = $('#editFilmDirector').val();
+            var releaseDate = $('#editReleaseDate').val();
+            filmService.updateFilm(filmName, filmDirector, releaseDate);
+        });
+
+        $('#confirmDeleteBtn').click(function () {
+            filmService.deleteFilm();
+        });
+    });
+    
+</script>

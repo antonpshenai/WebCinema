@@ -1,0 +1,217 @@
+﻿@model List<ITExpertTEST.ViewModels.CategoryViewModel>
+
+@{
+    ViewData["Title"] = "All Categories";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>All Categories</h2>
+<div class="row">
+    <div class="col-md-9">
+        <button type="button" class="btn btn-success mb-2" data-toggle="modal" data-target="#addCategoryModal">
+            Add New Category
+        </button>
+
+        <div class="modal fade" id="addCategoryModal" tabindex="-1" aria-labelledby="addCategoryModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="addCategoryModalLabel">Add New Category</h5>
+                        <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="addCategoryForm">
+                            <div class="form-group">
+                                <label for="categoryName">Category Name:</label>
+                                <input type="text" class="form-control" id="categoryName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="parentCategory">Parent Category:</label>
+                                <select class="form-control" id="parentCategory">
+                                    <option value="">Select Parent Category</option>
+                                        @foreach (var category in ViewData["Categories"] as List<Category>)
+                                    {
+                                        <option value="@category.CategoryId">@category.Name</option>
+                                    }
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-primary" onclick="saveCategory()">Save Category</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="editCategoryModal" tabindex="-1" aria-labelledby="editCategoryModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="editCategoryModalLabel">Edit Category</h5>
+                        <button type="button" class="btn-close" onclick="hideModal('editCategoryModal')" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="editCategoryForm">
+                            <input type="hidden" id="editCategoryId" />
+                            <div class="form-group">
+                                <label for="editCategoryName">Category Name:</label>
+                                <input type="text" class="form-control" id="editCategoryName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="editParentCategory">Parent Category:</label>
+                                <select class="form-control" id="editParentCategory">
+                                    <option value="">Select Parent Category</option>
+                                    @foreach (var category in ViewData["Categories"] as List<Category>)
+                                    {
+                                        <option value="@category.CategoryId"
+                                                selected=@category.ParentCategoryId>
+                                            @category.Name
+                                        </option>
+                                    }
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" onclick="hideModal('editCategoryModal')">Cancel</button>
+                        <button type="button" class="btn btn-primary" onclick="updateCategory()">Save Changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="deleteCategoryModal" tabindex="-1" aria-labelledby="deleteCategoryModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="deleteCategoryModalLabel">Confirm Category Deletion</h5>
+                        <button type="button" class="btn-close" onclick="hideModal('deleteCategoryModal')" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Are you sure you want to delete the category?
+                        <input type="hidden" id="categoryIdDelete" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" onclick="hideModal('deleteCategoryModal')">Cancel</button>
+                        <button type="button" class="btn btn-danger" id="confirmDeleteBtn" onclick="deleteCategory()">Delete</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <table class="table table-striped" id="categoriesTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Film Count</th>
+                    <th>Level</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var category in Model)
+                {
+                    <tr>
+                        <td>@category.Name</td>
+                        <td>@category.FilmCount</td>
+                        <td>@category.NestingLevel</td>
+                        <td>
+                            <button type="button" class="btn btn-primary" onclick="editCategory('@category.CategoryId', '@category.Name', '@category.ParentCategoryId')">Edit</button>
+                            <button type="button" class="btn btn-danger" onclick="modalDeleteCategory('@category.CategoryId')"> Delete </button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function saveCategory() {
+            var categoryName = $('#categoryName').val();
+            var parentCategoryId = $('#parentCategory').val();
+            console.log('Category Name:', categoryName);
+            console.log('Parent Category ID:', parentCategoryId);
+            $.ajax({
+                url: '@Url.Action("AddCategory", "Categories")',
+                method: 'POST',
+                data: {
+                    categoryName: categoryName,
+                    parentCategoryId: parentCategoryId
+                },
+                success: function (response) {
+                    $('#addCategoryModal').modal('hide');
+                    location.reload();
+                },
+                error: function (error) {
+                    console.error('Error saving category:', error);
+                }
+            });
+        }
+
+        function editCategory(categoryId, categoryName, parentCategoryId) {
+            $('#editCategoryId').val(categoryId);
+            $('#editCategoryName').val(categoryName);
+            $('#editParentCategory').val(parentCategoryId);
+
+            $('#editCategoryModal').modal('show');
+        }
+
+
+        function updateCategory() {
+            var categoryId = $('#editCategoryId').val();
+            var categoryName = $('#editCategoryName').val();
+            var parentCategoryId = $('#editParentCategory').val();
+
+            $.ajax({
+                url: '@Url.Action("UpdateCategory", "Categories")',
+                method: 'POST',
+                data: {
+                    categoryId: categoryId,
+                    categoryName: categoryName,
+                    parentCategoryId: parentCategoryId
+                },
+                success: function (response) {
+                    $('#editCategoryModal').modal('hide');
+                    location.reload();
+                },
+                error: function (error) {
+                    console.error('Error updating category:', error);
+                }
+            });
+        }
+
+        function modalDeleteCategory(categoryId) {
+            $('#categoryIdDelete').val(categoryId);
+
+            $('#deleteCategoryModal').modal('show');
+        }
+
+        function deleteCategory() {
+            var categoryId = $('#categoryIdDelete').val();
+
+            $.ajax({
+                url: '@Url.Action("DeleteCategory", "Categories")',
+                method: 'POST',
+                data: {
+                    categoryId: categoryId
+                },
+                success: function (response) {
+                    $('#deleteCategoryModal').modal('hide');
+                    location.reload();
+                },
+                error: function (error) {
+                    console.error('Error deleting category:', error);
+                }
+            });
+        }
+
+        function hideModal(modalId) {
+            $('#'+modalId).modal('hide');
+        }
+    </script>
+}
