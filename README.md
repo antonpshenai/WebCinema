@@ -16,7 +16,7 @@ New film appear in the list of films
 Filter movies by category.
 
 ![2 7](https://github.com/antonpshenai/WebCinema/assets/81904561/c6a95312-d06a-4da0-bcef-e5bea366d3ac)
-the result of using category filtering
+The result of using category filtering
 
 ![2 6](https://github.com/antonpshenai/WebCinema/assets/81904561/d67725e4-f485-4236-adf2-ce7ee4c91842)
 
@@ -30,10 +30,12 @@ Search by director
 
 Adding categories to a movie.
 
-![2 3](https://github.com/antonpshenai/WebCinema/assets/81904561/f76d92de-3a7b-484e-b177-d5ea108e06bb
+![2 3](https://github.com/antonpshenai/WebCinema/assets/81904561/f76d92de-3a7b-484e-b177-d5ea108e06bb)
+
 Movie details with added categories
 
-![2 2](https://github.com/antonpshenai/WebCinema/assets/81904561/b486c4d9-fcb3-49ff-9420-329eb42a902f
+![2 2](https://github.com/antonpshenai/WebCinema/assets/81904561/b486c4d9-fcb3-49ff-9420-329eb42a902f)
+
 Editing by the director
 
 ![2 1](https://github.com/antonpshenai/WebCinema/assets/81904561/143c07b8-09f0-4a6f-b416-4a4010176707)
@@ -41,6 +43,7 @@ Editing by the director
 The result with a changed director.
 
 ![2 0](https://github.com/antonpshenai/WebCinema/assets/81904561/8861e2a6-bd10-462c-98f0-cc98d1473b3c)
+
 The movie removal window.
 
 ![1 9](https://github.com/antonpshenai/WebCinema/assets/81904561/84f80135-0dba-4862-a8e9-5e0134c3abdc)
