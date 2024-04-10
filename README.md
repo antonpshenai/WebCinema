@@ -31,8 +31,9 @@ Filter movies by category.
 ![1 6](https://github.com/antonpshenai/WebCinema/assets/81904561/b59e6ea6-0ef8-432b-aefb-af746f2daf11)
 ![1 5](https://github.com/antonpshenai/WebCinema/assets/81904561/384dce17-852c-472a-99ba-3ad732bd6cdd)
 ![1 4](https://github.com/antonpshenai/WebCinema/assets/81904561/c63e5b52-ff62-42b0-8f1b-98863bdfdbd1)
-![1 3](https://github.com/antonpshenai/WebCinema/assets/81904561/6af8238a-fb2e-4f55-9ac0-fbe76092fc9e)
 ![photo_2024-04-10_21-55-03](https://github.com/antonpshenai/WebCinema/assets/81904561/48cf5477-393c-4d89-9390-02243e5709e0)
+
+![1 3](https://github.com/antonpshenai/WebCinema/assets/81904561/6af8238a-fb2e-4f55-9ac0-fbe76092fc9e)
 
 ![1 2](https://github.com/antonpshenai/WebCinema/assets/81904561/92918539-02d4-4ec7-b6bb-a2b2edd1a27c)
 ![1 1](https://github.com/antonpshenai/WebCinema/assets/81904561/ec6f9d74-d8d6-469e-b632-27ac949a828a)
